@@ -39,7 +39,7 @@ export function Nav() {
       className={cn(
         "sticky top-0 z-40 w-full transition-colors duration-200",
         scrolled
-          ? "border-b border-border/60 bg-background/85 backdrop-blur-md"
+          ? "border-b border-white/10 bg-background/45 backdrop-blur-lg"
           : "border-b border-transparent bg-transparent",
       )}
     >
@@ -52,19 +52,19 @@ export function Nav() {
           >
             {data.initials}
           </span>
-          <span className="text-sm font-medium text-foreground">{data.name}</span>
+          <span className="text-sm font-medium text-white">{data.name}</span>
         </Link>
 
         {/* Desktop links */}
         <nav
           aria-label="Sections"
-          className="hidden items-center gap-8 text-sm text-muted-foreground md:flex"
+          className="hidden items-center gap-8 text-sm text-white/75 md:flex"
         >
           {navLinks.map((link) => (
             <a
               key={link.href}
               href={link.href}
-              className="transition-colors hover:text-foreground"
+              className="transition-colors hover:text-white"
             >
               {link.label}
             </a>
@@ -86,7 +86,7 @@ export function Nav() {
             aria-label="Toggle menu"
             aria-expanded={mobileOpen}
             onClick={() => setMobileOpen((v) => !v)}
-            className="inline-flex size-9 items-center justify-center rounded-md border border-border text-foreground md:hidden"
+            className="inline-flex size-9 items-center justify-center rounded-md border border-white/25 text-white md:hidden"
           >
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
               {mobileOpen ? (

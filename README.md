@@ -1,6 +1,6 @@
 # Kirill Cholak — CV
 
-Персональное резюме на Next.js 14 + Tailwind. Дизайн вдохновлён [cmogrigorev.ru](https://www.cmogrigorev.ru/).
+Персональное резюме на Next.js 14 + Tailwind. + Claude Code
 
 ## Стек
 
@@ -13,7 +13,7 @@
 ## Фичи
 
 - Адаптивная вёрстка (desktop / tablet / mobile)
-- Тёмная тема, лайм-акцент
+- Тёмная тема
 - Переключатель языка с сохранением в `localStorage`
 - Sticky-навигация с якорями и мобильным меню
 - Таймлайн опыта работы

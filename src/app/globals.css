@@ -16,9 +16,9 @@
     --popover: 215 21% 11%;
     --popover-foreground: 213 27% 92%;
 
-    /* Accent — лайм-зелёный */
-    --primary: 74 86% 58%;             /* #C6F432 */
-    --primary-foreground: 215 25% 8%;
+    /* Accent — оранжевый */
+    --primary: 9 87% 57%;              /* #F15533 */
+    --primary-foreground: 0 0% 100%;   /* белый текст на оранжевом */
 
     --secondary: 215 16% 18%;
     --secondary-foreground: 213 27% 92%;
@@ -26,15 +26,15 @@
     --muted: 215 16% 18%;
     --muted-foreground: 215 8% 60%;    /* #8B949E — вторичный текст */
 
-    --accent: 74 86% 58%;
-    --accent-foreground: 215 25% 8%;
+    --accent: 9 87% 57%;               /* #F15533 */
+    --accent-foreground: 0 0% 100%;    /* белый текст на оранжевом */
 
     --destructive: 0 62% 50%;
     --destructive-foreground: 213 27% 92%;
 
     --border: 215 14% 18%;             /* лёгкая рамка карточек */
     --input: 215 14% 18%;
-    --ring: 74 86% 58%;
+    --ring: 9 87% 57%;                 /* #F15533 */
 
     --radius: 0.75rem;
   }

@@ -9,7 +9,7 @@
 - **CommandMenu (Cmd+K)** + зависимости `cmdk`, `vaul`, `@radix-ui/react-dialog` — нет в новом дизайне
 - **Docker** (`Dockerfile`, `docker-compose.yaml`) — деплоим через Vercel
 - **Print-стили** (`print:*` классы по всему коду) — резюме теперь интерактивное, а PDF лежит отдельно
-- **Старые ассеты** `src/images/logos/` — legacy от исходного шаблона BartoszJarocki/cv, не использовались
+- **Старые ассеты** `src/images/logos/` — legacy, не использовались
 - **Старые компоненты**: `Header.tsx`, `Summary.tsx`, `Highlights.tsx`, `section-skeleton.tsx`, `section-error-boundary.tsx`
 
 ### Новые компоненты в `src/app/components/`

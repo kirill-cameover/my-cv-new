@@ -32,7 +32,7 @@ export function Avatar({
           alt={alt}
           width={512}
           height={640}
-          className="h-full w-full object-cover"
+          className="h-full w-full object-cover object-top"
           onError={() => setError(true)}
           priority={true}
           unoptimized={src.startsWith("http")}

@@ -8,7 +8,7 @@ export const RESUME_DATA_I18N: Record<Locale, ResumeData> = {
     location: "Санкт-Петербург, UTC+3",
     locationLink: "https://www.google.com/maps/place/Saint-Petersburg",
     about: "BizDev · Sales · YouTube Production",
-    role: "BIZDEV • SALES • YOUTUBE PRODUCTION",
+    role: "ПРОДАЖИ · ПАРТНЁРСТВА · YOUTUBE PRODUCTION",
     headline: "Продажи, партнёрства и YouTube-продакшн",
     highlights: [
       "6+ лет опыта",
@@ -30,8 +30,7 @@ export const RESUME_DATA_I18N: Record<Locale, ResumeData> = {
         </p>
       </>
     ),
-    avatarUrl:
-      "https://avatars.githubusercontent.com/u/98087190?s=400&u=0fd5cc113146cf9090cabbd21952ac6c64d8df7d&v=4",
+    avatarUrl: "/Kirill_avatar.jpg",
     personalWebsiteUrl: "https://kirill-cameover.github.io/blog/",
     contact: {
       email: "kiril.ciolac@gmail.com",
@@ -261,8 +260,7 @@ export const RESUME_DATA_I18N: Record<Locale, ResumeData> = {
         </p>
       </>
     ),
-    avatarUrl:
-      "https://avatars.githubusercontent.com/u/98087190?s=400&u=0fd5cc113146cf9090cabbd21952ac6c64d8df7d&v=4",
+    avatarUrl: "/Kirill_avatar.jpg",
     personalWebsiteUrl: "https://kirill-cameover.github.io/blog/",
     contact: {
       email: "kiril.ciolac@gmail.com",
